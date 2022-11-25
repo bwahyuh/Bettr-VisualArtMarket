@@ -25,7 +25,7 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: bottom center;
 }
 
 .parallaximg3{
@@ -40,5 +40,50 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: bottom center;
+}
+
+.parallaximg4{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(kygo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.parallaximg5{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(dukedumont.png);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.parallaximg6{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(Ted_Baker_Bastille_0984.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
