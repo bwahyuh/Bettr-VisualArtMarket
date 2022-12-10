@@ -22,15 +22,3 @@
       background-color: rgba(199, 199, 199, 0.733);
       border-radius: 8px;
   }
-
-  .dropdown button{
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px ;
-  border-radius: 10px ;    
-  background-color: white;  
-  margin-top: -3px;
-  margin-left: 0px;
-  border: none;
-  width: 160px;
-  color: #000;
-  }
