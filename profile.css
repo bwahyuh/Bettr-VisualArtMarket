@@ -1,0 +1,24 @@
+#side_nav{
+    background: rgb(20, 20, 20);
+    min-width: 250px;
+    max-width: 250px;
+  }
+  .content{
+    min-height: 100vh;
+    width: 100%;
+  }
+  ul li.active{
+    background: #eee;
+    border-radius: 8px;
+  }
+  ul li.active a, .ul li.active a:hover{
+    color: #000;
+  }
+  ul li a{
+    color: #eee;
+  }
+  ul li a:hover{
+      color: #000;
+      background-color: rgba(199, 199, 199, 0.733);
+      border-radius: 8px;
+  }
