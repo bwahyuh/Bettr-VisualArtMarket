@@ -48,38 +48,57 @@
     <div class="col-md-5 p-lg-3 mx-auto mt-3 mb-5">
         <h1 class="display-8 text-center fw-bold text-light mb-3">REGISTER</h1>
         <div class="d-flex justify-content-center">
-            <form action="register.php" method="POST">
-                <!-- 2 column grid layout with text inputs for the first and last names -->
-                <div class="row mb-4 text-start">
-                  <div class="col">
-                    <div class="form-outline">
-                      <input type="text" id="fName" name="fName" class="form-control" />
-                      <label class="form-label" for="fName">First name</label>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div class="form-outline">
-                      <input type="text" id="lName" name="lName" class="form-control" />
-                      <label class="form-label" for="lName">Last name</label>
-                    </div>
-                  </div>
+          <form action="register.php" method="POST">
+            <!-- 2 column grid layout with text inputs for the first and last names -->
+            <div class="row mb-4 text-start">
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="fName" name="fName" class="form-control" />
+                  <label class="form-label" for="fName">First name</label>
                 </div>
-              
-                <!-- Email input -->
-                <div class="form-outline mb-4 text-start">
-                  <input type="email" id="email" name="email" class="form-control" />
-                  <label class="form-label" for="email">Email address</label>
+              </div>
+              <div class="col">
+                <div class="form-outline">
+                  <input type="text" id="lName" name="lName" class="form-control" />
+                  <label class="form-label" for="lName">Last name</label>
                 </div>
-              
-                <!-- Password input -->
-                <div class="form-outline mb-4 text-start">
-                  <input type="password" id="pass" name="pass" class="form-control" />
-                  <label class="form-label" for="pass">Password</label>
-                </div>
-              
-                <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4" name="submit" id="submit">Sign up</button>
-              </form>
+              </div>
+            </div>
+  
+            <!-- Email input -->
+            <div class="form-outline mb-4 text-start">
+              <input type="email" id="email" name="email" class="form-control" />
+              <label class="form-label" for="email">Email address</label>
+            </div>
+  
+            <!-- tel input -->
+            <div class="form-outline mb-4 text-start">
+              <input type="tel" id="tel" name="tel" class="form-control" />
+              <label class="form-label" for="tel">Phone Number</label>
+            </div>
+  
+            <!-- address input -->
+            <div class="form-outline mb-4 text-start">
+              <input type="text" id="address" name="address" class="form-control" />
+              <label class="form-label" for="address">Address</label>
+            </div>
+  
+            <!-- City input -->
+            <div class="form-outline mb-4 text-start">
+              <input type="text" id="city" name="city" class="form-control" />
+              <label class="form-label" for="city">City</label>
+            </div>
+  
+            <!-- Password input -->
+            <div class="form-outline mb-4 text-start">
+              <input type="password" id="pass" name="pass" class="form-control" />
+              <label class="form-label" for="pass">Password</label>
+            </div>
+  
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4" name="submit" id="submit">Sign up</button>
+            <p>Already have an account? <a href="LoginPage.html">Login Here</a> </p>
+          </form>
         </div>
     </div>
     
