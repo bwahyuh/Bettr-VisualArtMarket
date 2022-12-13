@@ -17,9 +17,4 @@
   ul li a{
     color: #eee;
   }
-  ul li a:hover{
-      color: #000;
-      background-color: rgba(199, 199, 199, 0.733);
-      border-radius: 8px;
-  }
 
