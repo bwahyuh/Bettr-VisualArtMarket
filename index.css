@@ -5,12 +5,12 @@
     position: relative;
     width: 100%;
     background-image: url(https://images.squarespace-cdn.com/content/v1/5b2a2304da02bcdfa5960061/1530178031718-BBOIVD27IO8QHFWKSSDQ/image-asset.jpeg?format=750w);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover; 
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: bottom;
 }
 
 .parallaximg2{
@@ -29,8 +29,4 @@
     -webkit-background-size: cover; 
     background-repeat: no-repeat;
     background-position: top center;
-}
-
-.paddingpanjangatas{
-    padding-top: 500px;
 }
