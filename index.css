@@ -25,6 +25,7 @@
     width: 100%;
     background-image: url(https://images.squarespace-cdn.com/content/v1/5b2a2304da02bcdfa5960061/1539014753860-WDJEP33OO08I0VHH5LMV/AO3I3028-2-min.jpg?format=1500w);
     background-size: fixed;
+    background-attachment: fixed;
     -moz-background-size: cover;
     -webkit-background-size: cover; 
     background-repeat: no-repeat;
